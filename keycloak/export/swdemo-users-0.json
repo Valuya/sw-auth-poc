@@ -1,0 +1,26 @@
+{
+  "realm" : "swdemo",
+  "users" : [ {
+    "id" : "4dcc7f17-1fc7-4204-92ed-89371b57e14c",
+    "createdTimestamp" : 1693810253883,
+    "username" : "roger",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "",
+    "lastName" : "",
+    "credentials" : [ {
+      "id" : "0d95dcd1-4608-4d80-9686-26cd90a9ad23",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1693810277854,
+      "secretData" : "{\"value\":\"L742y9pJWICVyRoVzRAwdG4uW1lU/x50XgPTtxcnZ9M=\",\"salt\":\"P1bnQOJJ0GSWoo5vEo29yw==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-swdemoi" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
