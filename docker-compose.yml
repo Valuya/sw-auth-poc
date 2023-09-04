@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+
+  authserver:
+    build:
+      context: keycloak
+    environment:
+      KEYCLOAK_ADMIN: 'admin'
+      KEYCLOAK_ADMIN_PASSWORD: 'admin'
+    ports:
+      - "7218:8080"
+      - "7213:8443"
+
+  web:
+    build:
+      context: web
+    ports:
+      - "7280:80"
